@@ -3,25 +3,36 @@
 ---
  ## Adding translate tag to html text
  ### add <translate> </translate> tag or translate attribute 
-	 * <p translate>This is True</p>
-	    			OR 
-	 * <translate>This is True</translate> 
+ ```html
+  <p translate>This is True</p> 
+  ```
+  ```html
+	<translate>This is True</translate> 
+  ```
 
 ---
  ## To translate _Placeholders_ text
  ### add translate filter placeholders
-	 * <input type="text" placeholder="{{'This is True' | translate}}">
+ ```html
+ <input type="text" placeholder="{{'This is True' | translate}}">
+ ```
  ### adding multiple filters for placeholders
-	 * <input type="text" placeholder="{{text |translate}} {{'(specify)'| translate}}">
+ ```html
+	 <input type="text" placeholder="{{text |translate}} {{'(specify)'| translate}}">
+```
 
 ---
  ## To translate JS text
  ### use _gettextCatalog.getString()_  function to translate javascript strings
- 	* alert(gettextCatalog.getString('This is True'));
+ ```javascript
+ 	 alert(gettextCatalog.getString('This is True'));
+ ```
 ---
 ## To translate text inside ng-bind
 ### use translate filter 
-	* <strong data-ng-bind="text | translate"></strong>
+```html
+ <strong data-ng-bind="text | translate"></strong>
+```
 ---
 # Extracting text 
 	* run 'sudo grunt extract' 
