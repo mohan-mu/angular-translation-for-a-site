@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: index.html:350
+msgid "Access to information from the past consults."
+msgstr ""
+
+#: index.html:180
+msgid "Allows realtime telemetry of medical device data. Multiple device vendor support. Audio, video, ECG and other vitals."
+msgstr ""
+
+#: index.html:451
+msgid "Almost Zero learning curve, Our staff started using the system in minutes!."
+msgstr ""
+
+#: index.html:224
+msgid "Analytics"
+msgstr ""
+
+#: index.html:656
+msgid "Back to top"
+msgstr ""
+
+#: index.html:379
+msgid "Better outcomes with timely access to specialists."
+msgstr ""
+
+#: index.html:366
+msgid "Better patient Loyalty"
+msgstr ""
+
+#: index.html:202
+msgid "Better utilization of Doctor time by decoupling the need for Patient and Doctor to be available at the same time"
+msgstr ""
+
+#: index.html:192
+msgid "Care Portal"
+msgstr ""
+
+#: index.html:32
+msgid "Carenation"
+msgstr ""
+
+#: index.html:7
+msgid "Carenation - Complete Care Devlivered REMOTELY"
+msgstr ""
+
+#: index.html:144
+#: index.html:201
+msgid "Carenation Chat"
+msgstr ""
+
+#: index.html:648
+msgid "Carenation is a registered trademark of Teslon Technologies Pvt. Ltd."
+msgstr ""
+
+#: index.html:162
+msgid "Carenation is a scalable tele-health platform that enables complete remote care delivery"
+msgstr ""
+
+#: index.html:413
+msgid "Carenation-datasheet.pdf"
+msgstr ""
+
+#: index.html:431
+msgid "Chandrababu Naidu - CM, Andhra Pradesh"
+msgstr ""
+
+#: index.html:487
+msgid "Clients and Partners"
+msgstr ""
+
+#: index.html:129
+msgid "Complete Care delivered"
+msgstr ""
+
+#: index.html:193
+msgid "Complete Tele-Health system with doctor and nurse management and work flows. Includes support for mobile end-point."
+msgstr ""
+
+#: index.html:215
+msgid "Conference"
+msgstr ""
+
+#: index.html:348
+msgid "Consult with your patient from the luxury of your home."
+msgstr ""
+
+#: index.html:55
+msgid "Contact"
+msgstr ""
+
+#: index.html:353
+msgid "Continued engagement with patients."
+msgstr ""
+
+#: index.html:368
+msgid "Cross promotions on patient portals"
+msgstr ""
+
+#: index.html:51
+msgid "Data Sheets"
+msgstr ""
+
+#: index.html:352
+msgid "Decreased travel for outreach services."
+msgstr ""
+
+#: index.html:179
+msgid "Device Gateway"
+msgstr ""
+
+#: index.html:409
+msgid "Download the Carenation Datasheet"
+msgstr ""
+
+#: index.html:466
+msgid "Dr.Anupama Shetty - Narayana Health"
+msgstr ""
+
+#: index.html:351
+msgid "Easy Scheduling and triaging."
+msgstr ""
+
+#: index.html:391
+msgid "Effectively bridge the clinician - patient divide"
+msgstr ""
+
+#: index.html:605
+#: index.html:606
+msgid "Email address"
+msgstr ""
+
+#: index.html:364
+msgid "Employer driven healthcare"
+msgstr ""
+
+#: index.html:614
+msgid "Enter Your Message"
+msgstr ""
+
+#: index.html:392
+msgid "Experience reduced costs as timelier access to the right doctor reduces the inefficiencies"
+msgstr ""
+
+#: index.html:138
+msgid "Explore Now"
+msgstr ""
+
+#: index.html:172
+#: index.html:45
+msgid "Features"
+msgstr ""
+
+#: index.html:345
+msgid "For Doctors"
+msgstr ""
+
+#: index.html:388
+msgid "For Governments"
+msgstr ""
+
+#: index.html:376
+msgid "For Hospitals"
+msgstr ""
+
+#: index.html:358
+msgid "For Patients"
+msgstr ""
+
+#: index.html:410
+msgid "Get complete details on the platform and the supported devices."
+msgstr ""
+
+#: index.html:395
+msgid "Get insights into health data over demography easily."
+msgstr ""
+
+#: index.html:137
+msgid "HD Video Chat"
+msgstr ""
+
+#: index.html:437
+msgid "Healthcare system of the future delivered at fraction of the cost."
+msgstr ""
+
+#: index.html:42
+msgid "Home"
+msgstr ""
+
+#: index.html:361
+msgid "Increase patient intake"
+msgstr ""
+
+#: index.html:234
+msgid "Integration with hospital systems with HL7, DICOM standards and API. Also SSO Authentication."
+msgstr ""
+
+#: index.html:233
+msgid "Integrations"
+msgstr ""
+
+#: index.html:438
+msgid "John Chambers - Executive chairman, Cisco Systems"
+msgstr ""
+
+#: index.html:146
+msgid "Know More"
+msgstr ""
+
+#: index.html:394
+msgid "Make healthcare affordable, reduce costs on specialists."
+msgstr ""
+
+#: index.html:365
+msgid "Manage Inflows better with scheduling"
+msgstr ""
+
+#: index.html:382
+msgid "Meet specialist of choice right from home or the nearest centre"
+msgstr ""
+
+#: index.html:362
+msgid "Offer specialist consults"
+msgstr ""
+
+#: index.html:367
+msgid "Operational Insights and mining on other health data"
+msgstr ""
+
+#: index.html:225
+msgid "Operational insights and medical analytics capabilities."
+msgstr ""
+
+#: index.html:396
+msgid "Operational insights to optimise the doctor usage."
+msgstr ""
+
+#: index.html:381
+msgid "Post operative monitoring - With Carenation you don't need to stay admitted post surgery beyond what is absolutely needed."
+msgstr ""
+
+#: index.html:452
+msgid "Prashanth Prabhu - Founder Prashanthi Super Clinics"
+msgstr ""
+
+#: index.html:393
+msgid "Private-Public partnerships to make the best doctors available in the remotest of places."
+msgstr ""
+
+#: index.html:129
+msgid "REMOTELY"
+msgstr ""
+
+#: index.html:465
+msgid "Really good video clarity."
+msgstr ""
+
+#: index.html:380
+msgid "Reduce unnecessary admissions/ readmissions/ consults."
+msgstr ""
+
+#: index.html:363
+msgid "Retain patients rather than transfer to another facility."
+msgstr ""
+
+#: index.html:445
+msgid "Sarvesh Savant - Gurukrupa Clinics"
+msgstr ""
+
+#: index.html:137
+msgid "Secure"
+msgstr ""
+
+#: index.html:621
+msgid "Send"
+msgstr ""
+
+#: index.html:591
+msgid "Send Your Queries"
+msgstr ""
+
+#: index.html:145
+msgid "Solve the"
+msgstr ""
+
+#: index.html:647
+msgid "Teslon.io 2015."
+msgstr ""
+
+#: index.html:424
+msgid "Testimonials"
+msgstr ""
+
+#: index.html:444
+msgid "The UI is very Intuitive, Our staff just love it."
+msgstr ""
+
+#: index.html:430
+msgid "This is True telemedicine."
+msgstr ""
+
+#: index.html:383
+msgid "Track vitals with insights, Get Educated, Ask questions directly, Keep all previous Notes, Questionnaire and Prescriptions"
+msgstr ""
+
+#: index.html:349
+msgid "Trends and Insights into patient health over a period of time rather than instantaneous vital values."
+msgstr ""
+
+#: index.html:324
+msgid "Video"
+msgstr ""
+
+#: index.html:136
+msgid "Video Consult"
+msgstr ""
+
+#: index.html:216
+msgid "Web-RTC based video conferencing system with stun and turn."
+msgstr ""
+
+#: index.html:342
+msgid "Whats in it for you?"
+msgstr ""
+
+#: index.html:48
+msgid "Why Carenation?"
+msgstr ""
+
+#: index.html:613
+msgid "Your Message"
+msgstr ""
+
+#: index.html:596
+#: index.html:597
+msgid "Your name"
+msgstr ""
+
+#: index.html:137
+msgid "and device data telemetry"
+msgstr ""
+
+#: index.html:145
+msgid "space time conundrum"
+msgstr ""
+
+#: index.html:163
+msgid "with specialist consultation, patient monitoring and education using cutting edge technologies."
+msgstr ""
+
+#: index.html:145
+msgid "with the"
+msgstr ""

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Angular Gettext Example</title>
+    </head>
+    <body ng-app="app" ng-controller="mainController">
+        <!--select your  language -->
+        <select ng-model="selectedLanguage" ng-change="changeLangauge(selectedLanguage)" style="background:none; border:none;outline:0px;font-size:13px;">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="kn">ಕನ್ನಡ</option>
+        </select>
+        <blockquote>
+            <!-- adding as a attribute  -->
+            <p translate>This is True</p>
+        </blockquote>
+        <!-- adding as a tag  -->
+        <h3>
+            <translate>This is True</translate>
+        </h3>
+          </br>
+          <!-- adding inside placeholder  -->
+          <input type="text" placeholder="{{'This is True' | translate}}">
+          <!-- adding inside alertboxes -->
+          </br><button translate ng-click="foo()">This is True</button>
+          </br></br>
+          <!-- adding multiple  placeholders -->
+          <input type="text" placeholder="{{text |translate}} {{'(specify)'| translate}}">
+          </br>
+          <!-- using with ng-bind -->
+           <strong data-ng-bind="text | translate"></strong>
+<!-- Angular -->
+<script src="js/angular.min.js"></script>
+<!-- Angular gettext -->
+<script src="js/angular-gettext.min.js"></script>
+<!-- Language Translation  -->
+<script src="translations/translations.js"></script>
+<script type="text/javascript">     
+      //angular code
+      var app=angular.module('app',['gettext']);
+      app.controller("mainController", function($scope,gettextCatalog) {
+           $scope.text="This is True";
+           $scope.foo=function()
+                  {
+                    alert(gettextCatalog.getString('This is True'));
+                  }
+
+          //setting up angular translation
+            
+
+            // searching for language in localstorage
+            if(localStorage.getItem('siteLanguage'))
+            {
+                // if found set it as a current language
+                $scope.selectedLanguage = localStorage.getItem('siteLanguage');
+                gettextCatalog.setCurrentLanguage($scope.selectedLanguage);
+            }
+            else
+              //searching for language in navigator
+            {   var lang=navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+                // if found assign it to $scope.selectedLanguage
+                $scope.selectedLanguage = lang.substr(0,lang.indexOf('-'));
+                console.log($scope.selectedLanguage);
+            }
+                $scope.changeLangauge = function(lang){
+                $scope.selectedLanguage=lang;
+                //storing selected language in localstorage ,if user visites sites next time it will be displayed in previously selected language
+                localStorage.setItem('siteLanguage',$scope.selectedLanguage);
+                gettextCatalog.setCurrentLanguage($scope.selectedLanguage);
+            }
+           
+      });
+
+    
+</script>
+</body></html>
