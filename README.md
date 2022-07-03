@@ -1,6 +1,7 @@
----
-# Adding Angular Translation 
----
+
+# Adding Angular Translation for a site
+Adding angular translation for a web site. Made using angular-gettext and Grunt.
+
  ## Adding translate tag to html text
  ### add <translate> </translate> tag or translate attribute 
  ```html
@@ -35,17 +36,17 @@
 ```
 ---
 # Extracting text 
-	* run 'sudo grunt extract' 
+* run `sudo grunt extract`
 
-	* that command  will create a file called template.pot in a folder  called "po"
+* above command  will create a file called template.pot in a folder called "po"
 
-	* then you need to convert this .pot file into .po file ,so use a editor called Poedit 
-	here select new translation  choose template.pot file and then choose the language you wanna translate  then  choose  file -->  SaveAs "nameoflanguage.po" 
+* then you need to convert this .pot file into .po file ,so use a editor called Poedit 
+	here select new translation  choose template.pot file and then choose the language you wanna translate  then  choose  file -->  SaveAs `nameoflanguage.po`
 
-	* navigate to google Translator Toolkit site  then uplode saved .po file  select the language  you want to translate  and then choose next   --> no thanks
+* navigate to google Translator Toolkit site  then uplode saved .po file  select the language  you want to translate  and then choose next   --> no thanks
 
-	* you will see the table which contains NAME  	WORDS LANGUAGE LAST MODIFIED  STATUSselect the row that your filename has , in a new window the translated text appears verify it then click on  complete button then you need to download translated file this is done by choosing file --> download  download it in to po folder 
+* you will see the table which contains NAME  	WORDS LANGUAGE LAST MODIFIED  STATUSselect the row that your filename has , in a new window the translated text appears verify it then click on  complete button then you need to download translated file this is done by choosing file --> download  download it in to po folder 
 
-	*  run 'sudo grunt compile'  if its done successfully  navigate to /translations/translations.js you will see all translated texts verify if everything is correct and also you can see that language code i.e 1st argument in  gettextCatalog.setStrings example: hi,kn,en,es....
+*  run `sudo grunt compile` if its done successfully  navigate to /translations/translations.js you will see all translated texts verify if everything is correct and also you can see that language code i.e 1st argument in  gettextCatalog.setStrings example: hi,kn,en,es....
 
 ---
