@@ -1,6 +1,7 @@
 
 # Adding Angular Translation for a site
-Adding angular translation for a web site. Made using angular-gettext and Grunt.
+
+Translating the whole website/web Application to a desired language in order to target other cultures, nationalities, and languages
 
  ## Adding translate tag to html text
  ### add <translate> </translate> tag or translate attribute 
